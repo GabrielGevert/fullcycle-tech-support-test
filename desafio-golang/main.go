@@ -15,7 +15,7 @@ limitations under the License.
 */
 package main
 
-import "github.com/codeedu/go-hexagonal/cmd"
+import "github.com/GabrielGevert/fullcycle-tech-support-test/desafio-golang/cmd"
 
 func main() {
 	cmd.Execute()

@@ -1,8 +1,8 @@
 package application_test
 
 import (
-	"github.com/codeedu/go-hexagonal/application"
-	mock_application "github.com/codeedu/go-hexagonal/application/mocks"
+	"github.com/GabrielGevert/fullcycle-tech-support-test/desafio-golang/application"
+	mock_application "github.com/GabrielGevert/fullcycle-tech-support-test/desafio-golang/application/mocks"
 	"github.com/golang/mock/gomock"
 	"github.com/stretchr/testify/require"
 	"testing"

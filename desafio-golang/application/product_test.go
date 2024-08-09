@@ -1,7 +1,7 @@
 package application_test
 
 import (
-	"github.com/codeedu/go-hexagonal/application"
+	"github.com/GabrielGevert/fullcycle-tech-support-test/desafio-golang/application"
 	uuid "github.com/satori/go.uuid"
 	"github.com/stretchr/testify/require"
 	"testing"
