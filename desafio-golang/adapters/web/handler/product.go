@@ -4,8 +4,8 @@ import (
 	"encoding/json"
 	"net/http"
 
-	"github.com/codeedu/go-hexagonal/adapters/dto"
-	"github.com/codeedu/go-hexagonal/application"
+	"github.com/GabrielGevert/fullcycle-tech-support-test/desafio-golang/adapters/dto"
+	"github.com/GabrielGevert/fullcycle-tech-support-test/desafio-golang/application"
 	"github.com/codegangsta/negroni"
 	"github.com/gorilla/mux"
 )

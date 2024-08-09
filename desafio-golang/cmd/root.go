@@ -18,10 +18,10 @@ package cmd
 import (
 	"database/sql"
 	"fmt"
-	"github.com/codeedu/go-hexagonal/application"
+	"github.com/GabrielGevert/fullcycle-tech-support-test/desafio-golang/application"
 	"os"
 	"github.com/spf13/cobra"
-	dbInfra "github.com/codeedu/go-hexagonal/adapters/db"
+	dbInfra "github.com/GabrielGevert/fullcycle-tech-support-test/desafio-golang/adapters/db"
 
 	homedir "github.com/mitchellh/go-homedir"
 	"github.com/spf13/viper"
