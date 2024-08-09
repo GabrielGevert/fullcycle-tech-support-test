@@ -6,13 +6,13 @@ services:
     build:
       context: node
     container_name: app
-    entrypoint: sh -c "npm install && node index.js"
     volumes:
       - ./node:/usr/src/app
+      - /usr/src/app/node_modules
     tty: true
     depends_on:
       database:
-        condition: "service_healthy"
+        condition: service_healthy
 
   nginx:
     image: nginx:1.15.0-alpine
@@ -33,7 +33,7 @@ services:
     volumes:
       - mysql:/var/lib/mysql
     environment:
-      - MYSQL_DATABASE=database
+      - MYSQL_DATABASE=databasenode
       - MYSQL_ROOT_PASSWORD=root
     healthcheck:
       test: ["CMD", "mysqladmin", "ping", "-h", "localhost", "-u", "root", "-p$$MYSQL_ROOT_PASSWORD"]
