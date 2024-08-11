@@ -80,6 +80,7 @@ require (
 ## Exemplo de import:
 
 ```go
+// main.go
 /*
 Copyright © 2021 NAME HERE <EMAIL ADDRESS>
 
